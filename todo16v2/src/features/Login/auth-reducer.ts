@@ -52,6 +52,7 @@ export const logoutTC =() => (dispatch: Dispatch<ActionsType>) => {
         .catch((error) => {
             handleServerNetworkError(error, dispatch)
         })
+    
 }
 
 // types
